@@ -1,6 +1,9 @@
 esphome:
   name: lanontvangera
   friendly_name: lanontvangerA
+ 
+
+
 #https://github.com/v12345vtm/webrelais-webinput
 esp32:
   board: esp32dev
@@ -66,10 +69,8 @@ udp:
   binary_sensors:
     - relay14a_tm  #wat broadcast je 
     - relay15a_tm  #wat broadcast je 
-
-
-
-
+ 
+ 
 
 switch:
   - platform: gpio

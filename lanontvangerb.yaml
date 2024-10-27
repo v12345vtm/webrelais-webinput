@@ -95,7 +95,7 @@ binary_sensor:
 ##binary sensors afkomstig vd zender
   - platform: udp
     provider: lanzender
-    id: knop14
+    id: knop4
     on_press:
       switch.turn_on: relay14b
     on_release:
@@ -105,7 +105,7 @@ binary_sensor:
 ##binary sensors afkomstig vd zender
   - platform: udp
     provider: lanzender
-    id: knop15
+    id: knop2
     on_press:
       switch.turn_on: relay15b
     on_release:
